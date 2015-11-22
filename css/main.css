@@ -1,0 +1,149 @@
+/**
+  Overall document
+*/
+
+body {
+   font-family: 'Tienne', serif;
+   color: grey;
+   text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/***************
+   Navbar
+***************/
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.nav img {
+  position: relative;
+  height: 2em;
+}
+
+.nav li {;
+  padding-right: 1em;
+  text-transform: bold;
+}
+
+/*****************
+   Video Background
+*******************/
+
+video#back {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: contain;
+  z-index: -1;
+}
+
+video {
+  display: block;
+}
+
+/********************
+     Tagline 
+*********************/
+
+.tagline {
+  margin: 0 auto;
+  margin-top: 21em;
+  width: 25em;
+  padding: 2em;
+  background-color: white;
+  display: block;
+  color: black;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  border-radius: 25px;
+}
+
+/******************************
+  Picture Icons
+*******************************/
+
+.features {
+   margin-bottom: 1em;
+}
+
+.row {
+   margin: 20em auto;
+}
+
+/**
+   Non-Hover Icons
+**/
+
+.code-logos {
+   width: auto;
+   height: 20em;
+
+   padding-top: 5em;
+
+   opacity: 0.6;
+   filter: alpha(opacity=60);
+   background-image: url(../images/icon.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.code-logos h2 {
+  font-size: 1.8em;
+  padding-right: 6em;
+  padding-left: .7em;
+  text-align: left;
+}
+
+.code-logos p {
+   display: none;
+   font-size: 1em;
+}
+
+.code-logos a {
+   text-decoration: none;
+   color: black;
+}
+
+.code-logos {
+   margin: 0 auto;
+}
+
+/**
+  Hover Icons
+**/
+
+.alternate {
+  height: 30em;
+  margin: 0 auto;
+
+  background-image: url(../images/hover.png);
+}
+
+.alternate a {
+   color: white;
+   text-decoration: bold;
+}
+
+.alternate h2 {
+   text-decoration: bold;
+   text-decoration: underline;
+}
+
+.alternate p {
+  text-align: left;
+   padding-top: .5em;
+   padding-left: 1em;
+   padding-right: 3em;
+}
