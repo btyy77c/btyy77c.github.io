@@ -3,9 +3,11 @@
 *************/
 
 .first {
-	color: black;
+	color: white;
+	text-shadow: 1.5px 1.5px black;
 	margin-top: 5em;
 	height: 9em;
+	margin-top: 15em;
 }
 
 /**************
