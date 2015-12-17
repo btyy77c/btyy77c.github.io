@@ -114,6 +114,11 @@ a:hover{
    width: 100%;
 }
 
+.github {
+   padding-top: 3em;
+   text-align: center;
+}
+
 /*Footer lists */
 .footer ul {
    display: inline;
